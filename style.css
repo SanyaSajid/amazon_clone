@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: 'Times New Roman';
+}
+
+.head1{
+    color: white;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(3, 4, 35);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.logo{
+    height: 50px;
+    width: 140px;;
+}
+.logo1{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height: 50px;
+    width: 140px;
+}
+.logo:hover{
+    border: 2px solid white;
+}
+.loca{
+    display: flex;
+}
+.loca:hover{
+    border: 2px solid white;
+}
+.loca i {
+    font-size: 1rem;
+    margin: 2px;
+    margin-top: 15px;
+}
+.p1{
+    font-size: 0.8rem;
+    color: rgb(202, 198, 198);
+}
+
+.p2{
+    font-size:  1rem;
+    font-weight: bold;
+}
+.search{
+    height: 30px;
+    width: 40%;
+    /* background-color: rgba(255, 255, 255, 0.737); */
+    display: flex;
+    align-items: content;
+    justify-content: center;
+}
+.search:hover{
+    border: 2px solid white;
+}
+.searchall{
+    background-color:rgba(255, 255, 255, 0.82);
+    color: grey;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.searchbar{
+    width: 100%;
+    border: none;
+}
+.searchlogo{
+    background-color: rgb(233, 181, 11);
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.searchlogo i{
+    color:rgb(3, 4, 35);
+}
+.searchlogo:hover{
+    background-color: rgb(214, 166, 7);
+}
+.searchall:hover{
+    background-color: rgba(255, 255, 255, 0.916);
+}
+.p3{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.p4{
+    font-size:  1rem;
+    font-weight: bold;
+}
+.hello:hover{
+    border: 2px solid white;
+}
+.order:hover{
+    border: 2px solid white;
+}
+.cart{
+    display: flex;
+}
+.cart:hover{
+    border: 2px solid white;
+}
+.cart i{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.p5{
+    margin-top: 20px;
+}
+.head2{
+    color: white;
+    height: 40px;
+    width: 100%;
+    background-color: #333658;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+}
+.select1{
+    display: flex;
+}
+.select1:hover{
+    border: 2px solid white;
+}
+.same1{
+    margin-left: 6px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.same{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.same:hover{
+    border: 2px solid white;
+   
+}
+.select i {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hero{
+    height: 400px;
+    width: 100%;
+   
+    background-image: url("hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    height: 350px;
+    width: 325px;
+    background-color: white;
+    margin-top: 270px; 
+    margin-left: 10px;
+    color: rgb(11, 12, 49);
+}
+.picture1{
+    height: 260px;
+    width: 280px;
+    background-image: url("blank1.jpg");
+    background-size: cover;
+    margin: 8px 10px 10px 22px;
+}
+
+.box2{
+    height: 350px;
+    width: 325px;
+    background-color: white;
+    margin-top: 270px; 
+    margin-left: 10px;
+    color: rgb(11, 12, 49);
+}
+.picture2{
+    height: 260px;
+    width: 270px;
+    background-image: url("blank2.jpg");
+    background-size: cover;
+    margin: 8px 10px 10px 22px;
+}
+.box3{
+    height: 350px;
+    width: 325px;
+    background-color: white;
+    margin-top: 270px; 
+    margin-left: 10px;
+    color: rgb(11, 12, 49);
+}
+.picture3{
+    height: 260px;
+    width: 270px;
+    background-image: url("blank3.jpg");
+    background-size: cover;
+    margin: 8px 10px 10px 22px;
+}
+.box4{
+    height: 350px;
+    width: 325px;
+    background-color: white;
+    margin-top: 270px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(11, 12, 49);
+}
+.picture4{
+    height: 260px;
+    width: 270px;
+    background-image: url("blank4.jpg");
+    background-size: cover;
+    margin: 8px 10px 10px 22px;
+}
+.heading{
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.others{
+    margin-left: 15px;
+    color: rgb(11, 12, 49);
+}
+.others1{
+    margin-left: 15px;
+    color: rgb(11, 12, 49);
+}
+.others:hover{
+    color:rgb(231, 20, 20)
+}
+.others1:hover{
+    color:rgb(231, 20, 20)
+}
